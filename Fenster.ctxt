@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=
+comment1.target=Fenster()
+comment10.params=input1\ input2
+comment10.target=java.lang.String\ SubtrahierenHex(java.lang.String,\ java.lang.String)
+comment2.params=ae
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=Param
+comment3.target=java.lang.String\ DecInHex(long)
+comment4.params=Param
+comment4.target=long\ HexInDec(java.lang.String)
+comment5.params=Param
+comment5.target=boolean\ isHex(java.lang.String)
+comment6.params=Param
+comment6.target=boolean\ isDec(java.lang.String)
+comment7.params=input1\ input2
+comment7.target=java.lang.String\ AddierenDec(java.lang.String,\ java.lang.String)
+comment8.params=input1\ input2
+comment8.target=java.lang.String\ AddierenHex(java.lang.String,\ java.lang.String)
+comment9.params=input1\ input2
+comment9.target=java.lang.String\ SubtrahierenDec(java.lang.String,\ java.lang.String)
+numComments=11
