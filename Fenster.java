@@ -156,12 +156,12 @@ public class Fenster extends JFrame implements ActionListener
         setSize(500, 300);
         setVisible(true);
 
-        //label
+        //Label
         index = new JLabel("D");
         index.setBounds(470,30,30,30);
         add(index);
         index.setText("D");
-        //Buttons sind anclickbar
+        //Buttons sind anklickbar
         for(int z=0;z<buttons.length;z++){
             buttons[z].addActionListener(this);
         }
@@ -590,7 +590,6 @@ public class Fenster extends JFrame implements ActionListener
         }
         return x;
     }
-
     public boolean isHex(String Param){
         boolean bool=true;
         for(int i=0;i<Param.length();i++){
@@ -619,7 +618,6 @@ public class Fenster extends JFrame implements ActionListener
         }
         return bool;
     }
-
     public boolean isDec(String Param){
         boolean bool=true;
         for(int i=0;i<Param.length();i++){
@@ -643,7 +641,6 @@ public class Fenster extends JFrame implements ActionListener
         }
         return bool;
     }
-
     public String AddierenDec(String input1,String input2){
         long privInput1=Long.parseLong(input1);
         long privInput2=Long.parseLong(input2);
@@ -651,7 +648,6 @@ public class Fenster extends JFrame implements ActionListener
         String PrivString=Long.toString(privOut1);
         return PrivString;
     }
-
     public String AddierenHex(String input1,String input2){
         long Priv1=HexInDec(input1);
         long Priv2=HexInDec(input2);
@@ -660,7 +656,6 @@ public class Fenster extends JFrame implements ActionListener
         return PrivString2;
 
     }
-
     public String SubtrahierenDec(String input1,String input2){
         long privInput1=Long.parseLong(input1);
         long privInput2=Long.parseLong(input2);
@@ -668,7 +663,6 @@ public class Fenster extends JFrame implements ActionListener
         String PrivString=Long.toString(privOut1);
         return PrivString;
     }
-
     public String SubtrahierenHex(String input1,String input2){
         long Priv1=HexInDec(input1);
         long Priv2=HexInDec(input2);
@@ -676,6 +670,5 @@ public class Fenster extends JFrame implements ActionListener
         String PrivString2 = DecInHex(PrivLong);
         return PrivString2;
     }
-
 }
 
