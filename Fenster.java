@@ -170,7 +170,6 @@ public class Fenster extends JFrame implements ActionListener
 
     public void actionPerformed(ActionEvent ae){
         if(ae.getSource() == buttons[0]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -181,7 +180,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[1]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -192,7 +190,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[2]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -203,7 +200,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[3]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -214,7 +210,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[4]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -225,7 +220,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[5]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -236,7 +230,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[6]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -247,7 +240,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[7]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -258,7 +250,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[8]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -269,7 +260,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[9]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -280,7 +270,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[10]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -291,7 +280,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[11]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -302,7 +290,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[12]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -313,7 +300,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[13]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -324,7 +310,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[14]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -335,7 +320,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[15]){
-
             privString = Ergebnis.getText();
             if(privString.equals("Ergebnis"))
             {
@@ -346,7 +330,6 @@ public class Fenster extends JFrame implements ActionListener
             Ergebnis.setText(nText);
         }
         if(ae.getSource() ==buttons[16]){
-
             if(Dec.isSelected() == true){
                 if(addCounter==0&&subCounter==0){
                     JOptionPane.showMessageDialog(this,"nicht genügend Angaben");
@@ -383,7 +366,6 @@ public class Fenster extends JFrame implements ActionListener
             }
         }
         if(ae.getSource() ==buttons[17]){
-
             if(Dec.isSelected() == true){
                 cText=Ergebnis.getText();
                 if(isDec(cText)==true)
@@ -403,7 +385,6 @@ public class Fenster extends JFrame implements ActionListener
             }
         }
         if(ae.getSource() ==buttons[18]){
-
             addCounter =0;
             subCounter=0;
             PasteText = "";
@@ -455,9 +436,6 @@ public class Fenster extends JFrame implements ActionListener
                 Ergebnis.setText("");
             }
         }
-        if(ae.getSource() ==buttons[21]){
-
-        }
     }
 
     public String DecInHex(long Param){
@@ -498,7 +476,7 @@ public class Fenster extends JFrame implements ActionListener
             }
         }
         else{
-            JOptionPane.showMessageDialog(this,"Fataler Fehler,keine Dezimalzahl");
+            JOptionPane.showMessageDialog(this,"keine Dezimalzahl");
         }
         return Ergebnis;
     }
