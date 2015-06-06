@@ -17,7 +17,7 @@ public class Fenster extends JFrame implements ActionListener
     public JLabel index; 
     public int subCounter=0;
 
-    public void main()
+    public static void main(String[] args)
     {
         Fenster1 = new Fenster();
     }
